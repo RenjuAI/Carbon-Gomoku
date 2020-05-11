@@ -34,7 +34,7 @@ int va, vb;
 // -----------------------------------------------------------------------------
 const LPSTR lpszMainWndClassName = "CarbonGomokuMainWndClass";
 const LPSTR lpszCaption = "Carbon Gomoku";
-const int cellSize = 17;
+const int cellSize = 50;
 
 HINSTANCE ghInstance; // global handle
 HMENU     hMenu;
@@ -50,7 +50,7 @@ RECT    clientRect;
 // -----------------------------------------------------------------------------
 // Dane dotyczace stanu gry
 // -----------------------------------------------------------------------------
-const int  boardSize = 19;
+const int  boardSize = 15;
 
 const char playerName[][32] = {"Human", "AI - Simple 1", "AI - Carbon"};
 const int  playerCount = 3;
